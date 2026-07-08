@@ -8,7 +8,7 @@ use App\Http\Controllers\NoteController;
 // });
 
 Route::get('/greetings', function(){
-    return "Greetings, Earth!";
+    return "Hello World";
 });
 
 Route::get('/note/{index?}', [NoteController::class, 'show']);
